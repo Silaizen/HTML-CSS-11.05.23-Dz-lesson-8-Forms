@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Мини-библиотека стилей для элементов ввода</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <p>
+      <input
+        type="text"
+        class="input-default"
+        placeholder="Input в исходном состоянии"
+      />
+
+      <input
+        type="text"
+        class="input-valid"
+        placeholder="Input с корректными данными"
+      />
+
+      <input
+        type="text"
+        class="input-invalid"
+        placeholder="Input с некорректными данными"
+      />
+    </p>
+
+    <p>
+      <label class="checkbox-active">
+        <input type="checkbox" checked /> Subscribe
+      </label>
+
+      <label class="checkbox-inactive">
+        <input type="checkbox" disabled /> Subscribe
+      </label>
+    </p>
+
+    <p>
+      <label class="radio-active">
+        <input type="radio" name="radio" checked /> Male
+      </label>
+
+      <label class="radio-inactive">
+        <input type="radio" name="radio" disabled /> Female
+      </label>
+    </p>
+
+    <p>
+      <button class="button-green">Active</button>
+
+      <button class="button-hover">Active</button>
+
+      <button class="button-red">Danger</button>
+
+      <button class="button-hover_red">Hover</button>
+
+      <button class="button-disabled" disabled>Disable</button>
+
+      <button class="button-round-green">&#x2713;</button>
+
+      <button class="button-round-red">&#x2717;</button>
+    </p>
+
+    <p>
+      <textarea class="textarea-default" placeholder="Textarea"></textarea>
+    </p>
+  </body>
+</html>

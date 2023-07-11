@@ -1,0 +1,140 @@
+/* Input в исходном состоянии */
+.input-default {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Input с корректными данными */
+  .input-valid {
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Input с некорректными данными */
+  .input-invalid {
+    border: 1px solid #FF0000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Checkbox в состоянии "включено" */
+  .checkbox-active {
+    /* стили для активного checkbox */
+  }
+  
+  /* Checkbox в состоянии "выключено" */
+  .checkbox-inactive {
+    /* стили для неактивного checkbox */
+  }
+  
+  /* Radio button в состоянии "включено" */
+  .radio-active {
+    /* стили для активного radio button */
+  }
+  
+  /* Radio button в состоянии "выключено" */
+  .radio-inactive {
+    /* стили для неактивного radio button */
+  }
+  
+  /* Зеленая кнопка в обычном состоянии */
+  .button-green {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+  .button-hover {
+    background-color: #173a18;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Зеленая кнопка при наведении мышкой */
+  .button-green:hover {
+    background-color: #45a049;
+  }
+  
+  /* Красная кнопка в обычном состоянии */
+  .button-red {
+    background-color: #b43434;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+  .button-hover_red {
+    background-color: #4e1b1b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+
+  /* Красная кнопка при наведении мышкой */
+  .button-red:hover {
+    background-color: #e60000;
+  }
+  
+  /* Неактивная кнопка */
+  .button-disabled {
+    background-color: #ccc;
+    color: #666;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: not-allowed;
+  }
+  
+  /* Круглая зеленая кнопка с иконкой */
+  .button-round-green {
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Круглая красная кнопка с иконкой */
+  .button-round-red {
+    background-color: #FF0000;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Textarea */
+  .textarea-default {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }

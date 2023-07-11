@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Введення даних кредитної картки</title>
+    <style>
+      .credit-card {
+        width: 400px;
+        padding: 20px;
+        border: 1px solid #b82c2c;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(14, 5, 5, 0.2);
+        font-family: Arial, sans-serif;
+        background-image: url("moon_flag.png");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .credit-card-title {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #1b1919;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 16px;
+        color: #1b1414;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #110f0f;
+        border-radius: 5px;
+      }
+
+      input[type="submit"] {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007bff;
+        color: #161414;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="credit-card">
+      <h1 class="credit-card-title">Введення даних кредитної картки</h1>
+
+      <form id="credit-card-form">
+        <div class="form-group">
+          <label for="card-number">Номер кредитної картки:</label>
+          <input type="text" id="card-number" required />
+        </div>
+
+        <div class="form-group">
+          <label for="card-holder">Ім'я власника:</label>
+          <input type="text" id="card-holder" required />
+        </div>
+
+        <div class="form-group">
+          <label for="expiration-date">Термін дії:</label>
+          <input type="text" id="expiration-date" required />
+        </div>
+
+        <div class="form-group">
+          <label for="cvv">Номер CVV / CVN:</label>
+          <input type="text" id="cvv" required />
+        </div>
+
+        <input type="submit" value="Відправити" />
+      </form>
+    </div>
+  </body>
+</html>
